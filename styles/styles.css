@@ -13,11 +13,6 @@ body{
     overflow-x: hidden;
 }
 
-@media screen and (width: 1920px) {
-  nav  .links{
-    color: red;    
-}
-}
 
 
 header{
@@ -30,8 +25,8 @@ header{
 header .headerImage{
     position: absolute;
     top: 0;
-    left: 40%;
-    width: 1050px;
+    right: 0;
+    width: 450px;
     height: 100%;
     z-index: 1;
 }
@@ -44,7 +39,7 @@ header nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100%;
+    width: 100vw;
     margin-bottom: 100px;
 }
 
@@ -59,6 +54,7 @@ header nav{
     justify-content: space-evenly;
     z-index: 50;
     width: 100%;
+    flex-wrap: wrap;
 }
 
 
@@ -173,3 +169,6 @@ footer nav{
     justify-content: space-between;
     padding: 0 40px;
 }
+
+
+

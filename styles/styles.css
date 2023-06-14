@@ -80,6 +80,15 @@ header nav{
     height: 100%;
     
 }
+.mobileBannerMarco{
+    display: none;
+}
+.mobileBannerContainer{
+    height: 25vh;
+    filter: brightness(0.8) contrast(0.9);
+    display: none;
+    overflow: hidden;
+}
 
 .advantagesText{
     width: 65%;

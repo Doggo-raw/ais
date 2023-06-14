@@ -6,13 +6,237 @@
     width: 220px;
     margin-bottom: 50px;
   }
-  .welcomeText{
+  .welcomeText h2{
     font-size: 48px;
     width: 1180px;
   }
-  .headerImage{
+  header .headerImage{
     width: 645px;
+    height: 100%;
+  }
+  .advantagesText h2{
+    font-size: 1.8em;
+  }
+  .advantagesText {
+    font-size: 1.8em;
+  }
+  .advantagesImg img{
+    width: 715px;
+  }
+  .functionsText{
+    transform: scale(1.6);
+  }
+  .functionsScheme img{
+    width: 670px;
+  }
+}
+
+@media (min-width: 1024px) {
+  nav{
+    font-size: 1.3em;
+  }
+  .advantagesText {
+    font-size: 0.9em;
+  }
+  .functionsText{
+    transform: scale(0.8);
+  }
+  .functionsScheme img{
+    width: 300px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  nav{
+    font-size: 1em;
+  }
+  header nav{
+    margin-bottom: 50px;
+  }
+  nav .logo{
+    width: 115px;
+  }
+  .welcomeText h2{
+    font-size: 24px;
+    width: 420px;
+  }
+  header .headerImage{
+    width: 330px;
+    height: 100%;
+  }
+  .advantagesText h2{
+    font-size: 1.8em;
+  }
+  .advantagesText {
+    font-size: 0.7em;
+  }
+  .advantagesImg img{
+    width: 250px;
+  }
+  .functionsText{
+    margin-left: 20px;
+  }
+  .carousel-item{
+    height: 300px;
+  }
+  .carousel-inner{
+      width: 400px;
+      height: 300px;
+  }
+  .carousel-item ul{
+      line-height: 145%;
+      font-size: 0.75em;
+      
+  }
+  .functions{
+    gap: 4%;
+  }
+  .functionsScheme img{
+    width: 300px;
+    margin-right: 10px;
+  }
+}
+
+
+@media (max-width: 425px){
+  nav{
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+  }
+  .links a{
+    margin-bottom: 10px;
+  }
+  header{
+    height: 80vh;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  header nav{
+    margin-bottom: 40px;
+  }
+  nav .links{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+  }
+  nav .logo{
+    width: 115px;
+    z-index: 50;
+    position: relative;
+    margin-left: 15px;
+  }
+  .welcomeText h2{
+    font-size: 20px;
+    width: 300px;
+  }
+  .welcomeText {
+    margin: 0 auto;
+  }
+  header .headerImage{
+    width: 250px;
+    height: 100%;
+    filter: opacity(0.2);
+  }
+  .advantages{
+    display: flex;
+    justify-content: center;
+  }
+  .advantagesText h2{
+    font-size: 2em;
+    text-align: center;
+  }
+  .advantagesText {
+    text-align: center;
+    padding: 40px 0;
+    font-size: 0.7em;
+    width: 75%;
+  }
+  .advantagesText p{
+    line-height: 130%;
+  }
+  .advantagesImg img{
+    display: none;
+  }
+  .mobileBannerMarco{
+    display: block;
+    width: 500px;
+  }
+  .mobileBannerContainer{
+    display: block;
   }
 
+  .functionsContainer{
+    height: 150vh;
+  }
+  .functions{
+    flex-direction: column;
+    align-items: center;
+  }
+  .functionsScheme{
+    width: 300px;
+  }
+  .functionsText{
+    margin: 0;
+  }
+  .functionsText h2{
+    text-align: center;
+  }
+  footer{
+    height: 50vh;
+  }
+  footer .footerPolygon{
+    height: 200px;
+    width: 380px;
+  }
+  footer nav .links{
+    flex-direction: row;
+  }
+  #carouselExampleIndicators{
+    transform: scale(0.9);
+  }
+}
 
+@media (max-width: 375px){
+  .welcomeText h2{
+    font-size: 17px;
+    width: 240px;
+    text-align: center;
+  }
+  #carouselExampleIndicators{
+    transform: scale(0.8);
+  }
+  footer .footerPolygon{
+    height: 200px;
+    width: 340px;
+  }
+  footer nav .links{
+    font-size: 0.8em;
+  }
+}
+
+@media (max-width: 320px){
+  .functionsText h2{
+    font-size: 1.8em;
+    margin: 20px 0;
+  }
+  #carouselExampleIndicators{
+    transform: scale(0.7);
+  }
+  footer .footerPolygon{
+    height: 200px;
+    width: 300px;
+  }
+  footer nav .links{
+   flex-direction: column;
+  }
+  footer{
+    height: 80vh;
+  }
 }

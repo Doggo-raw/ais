@@ -13,6 +13,13 @@ body{
     overflow-x: hidden;
 }
 
+@media screen and (width: 1920px) {
+  nav  .links{
+    color: red;    
+}
+}
+
+
 header{
     height: 65vh;
     background-color: #232323;

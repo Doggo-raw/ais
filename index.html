@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <title>AIS</title>
+</head>
+
+<body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<header>
+
+    <nav>
+        <a href="#"><img class="logo" src="./assets/Logo.svg" alt="Logo"></a>
+        <div class="links">
+            <a href="#advantages">Преимущества</a>
+            <a href="#functions">Функции</a>
+            <a href="#">Материалы</a>
+        </div>
+    </nav>
+    <div class="welcomeText">
+        <h2>АИС управления системой энергоснабжения 
+            предприятий с использованием гибридных накопителей энергии.</h2>
+    </div>
+    <img class="headerImage" src="./assets/tommy-pascale-50WplBazR5I-unsplash 1.svg" alt="">
+
+
+</header>
+
+<div class="advantagesContainer">
+    <div class="advantages" id="advantages">
+        <div class="advantagesImg">
+            <img src="./assets/marco-pregnolato-Zir0L0GDZYY-unsplash 1.svg" alt="">
+        </div>
+        <div class="advantagesText">
+            <h2 style="color: #FFBA01; font-weight: 600; margin-bottom: 40px;">Преимущества</h2>
+            <p>Главным преимуществом нашей системы является то, что она позволяет оптимизировать энергопотребление предприятия, уменьшая издержки на электроэнергию и прогнозируя затраты на будущее.
+            </p>
+        </div>    
+    </div>
+</div>
+
+<div class="functionsContainer">
+    <div class="functions" id="functions">
+        <div class="functionsText">
+            <h2 style="font-weight: 600; font-size: 2.1em; margin-bottom: 40px;">Как это работает?</h2>
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <ul>
+                        <li>получение и анализ данных расхода электроэнергии (технический учет);</li>
+                        <li>получение и анализ данных производства электроэнергии от ВИЭ;</li>
+                        <li>получение данных технологических параметров электротехнического оборудования;</li>
+                        <li>получение и анализ данных технологических параметров накопителей энергии;</li>
+                        <li>стоимостные показатели энергетических ресурсов;</li>
+                    </ul>
+                  </div>
+                  <div class="carousel-item">
+                    <ul>
+                        <li>передача сообщений о неисправности аварийной, охранной и пожарной сигнализации электроустановки (распределительного устройства);</li>
+                        <li>визуализация режима работы электрической сети предприятия на экранах, сигнализации при отклонении заданных параметров за уставки, сигнализация о неисправности или аварии в электроустановках;</li>
+                        <li>дистанционное управление электротехническим оборудованием;</li>
+                    </ul>
+                  </div>
+                  <div class="carousel-item">
+                    <ul>
+                        <li>удаленная перенастройка параметров контроллеров;</li>
+                        <li>протоколирование всех событий (аварий, действий диспетчера, включения и выключения исполнительных механизмов, поступления тревожных сигналов и сообщений и т.п.);</li>
+                        <li>определение рекомендуемой загрузки генераторов, затрат на прием, передачу и выработку электроэнергии, а также суммарных затрат при различных условиях связи с энергосистемой. </li>
+                    </ul>
+                  </div>
+                  <div class="carousel-item">
+                    <ul>
+                        <li>построение зависимости мощности, принимаемой из энергосистемы, от оптимальной мощности на клеммах генератора.</li>
+                        <li>планирование загрузки источников электроэнергии при изменении условий приема мощности из системы.</li>
+                        <li>выдача рекомендаций по снижению затрат на выработку электроэнергии собственными ЭС и снижению потерь мощности за счет оптимального распределения мощностей между генераторами собственных ЭС и использования ГСНЭ. </li>
+                    </ul>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+
+        </div>
+        <div class="functionsScheme">
+            <img src="./assets/fbScheme.svg" alt="">
+        </div>
+    </div>
+</div>
+
+
+
+<footer>
+    <img src="./assets/Polygon 1.svg" alt="">
+    <div class="navContainer">
+        <nav>
+            <a href="#"><img class="logo" src="./assets/Logo.svg" alt="Logo"></a>
+                <div class="links">
+                    <a href="#advantages">Преимущества</a>
+                    <a href="#functions">Функции</a>
+                    <a href="#">Материалы</a>
+                </div>
+        </nav>    
+    </div>
+</footer>
+</body>
+</html>

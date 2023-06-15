@@ -325,8 +325,21 @@
     text-align: center;
   }
   #carouselExampleIndicators{
-    transform: scale(0.8);
+    width: 315px;
+    height: 400px;
   }
+  .carousel-inner{
+    width: 315px;
+    height: 400px;
+  }
+  .carousel-item ul{
+    height: 250px;
+  }
+  .carousel-item{
+    height: 400px;
+  }
+
+
   footer .footerPolygon{
     height: 200px;
     width: 340px;
@@ -357,7 +370,8 @@
     margin: 0 0 10vh 0;
   }
   .material table{
-    font-size: 8px;
+    font-size: 10px;
+    transform: scale(0.9);
   }
 
   .results h2{

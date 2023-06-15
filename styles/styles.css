@@ -157,6 +157,99 @@ header nav{
     margin: 0 auto;
 }
 
+.materialContainer{
+    width: 100%;
+    height: 180vh;
+    display: flex;
+    justify-content: center;
+    background-color: #232323;
+
+}
+
+.material{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.materialText{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 35px 0;
+}
+
+table {
+    border-collapse: collapse;
+    border: 4px solid #FFBA01;
+    border-radius: 15px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    text-align: center; 
+    border: 1px solid #FFBA01;
+  }
+
+
+.results{
+    width: 100%;
+    height: 100%;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    line-height: 180%;
+    padding-bottom: 10vh;
+}
+
+.results h2{
+    font-weight: 600;
+    color: #FFBA01;
+}
+
+.results p{
+    width: 80%;
+}
+
+.lastBannerContainer{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+    background-image: url(../assets/robert-thiemann-a1-gfxHdnwg-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(0.8) contrast(0.9);
+
+}
+
+
+
+.end{
+    width: 100%;
+    height: 100%;
+    background-color: #232323;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+    line-height: 180%;
+    padding: 10vh 0;
+}
+
+.end h2{
+    font-weight: 600;
+    color: #FFBA01;
+}
+
+.end p{
+    width: 80%;
+}
+
 
 footer{
     display: flex;

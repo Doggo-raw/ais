@@ -1,14 +1,20 @@
 @media (width: 1920px){
   header nav{
     font-size: 36px;
-    margin-bottom: 40px;
   }
   nav .logo{
     width: 220px;
-    margin-bottom: 35px;
+    margin-bottom: 80px;
+  }
+  nav .links{
+    font-size: 36px;
   }
   header{
     height: 70vh;
+    padding-left: 5%;
+  }
+  .welcomeText h2{
+    font-size: 48px;
   }
   .advantagesText h2{
     font-size: 48px;
@@ -25,6 +31,30 @@
   .functionsScheme img{
     width: 600px;
   }
+  .material{
+    align-items: center;
+    justify-content: center;
+    transform: scale(1.5);
+  }
+
+  table{
+    font-size: 1.1em;
+  }
+
+  .results h2{
+    font-size: 42px;
+  }
+  .results{
+    font-size: 36px;
+  }
+
+  .end h2{
+    font-size: 42px;
+  }
+  .end{
+    font-size: 36px;
+  }
+
 
   footer .links{
     font-size: 36px;
@@ -69,26 +99,54 @@
 }
 
 @media (max-width: 1024px) {
-  nav{
+  header nav{
     font-size: 1.3em;
+    margin-bottom: 60px;
   }
   .advantagesText {
-    font-size: 0.9em;
+    font-size: 12px;
   }
+  .welcomeText h2{
+    font-size: 24px;
+  }
+
   .functionsText{
     transform: scale(0.8);
   }
   .functionsScheme img{
     width: 300px;
   }
+
+  .material{
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.9);
+    text-align: center;
+  }
+
+  .results h2{
+    padding-top: 20vh;
+    font-size: 36px;
+  }
+  .results{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .end h2{
+    font-size: 36px;
+  }
+  .end{
+    font-size: 18px;
+    text-align: center;
+  }
+
 }
 
 
 @media (max-width: 768px) {
-  nav{
-    font-size: 1em;
-  }
   header nav{
+    font-size: 14px;
     margin-bottom: 50px;
   }
   nav .logo{
@@ -156,7 +214,7 @@
     align-items: center;
   }
   header nav{
-    margin-bottom: 40px;
+    margin-bottom: 25px;
   }
   nav .links{
     display: flex;
@@ -172,6 +230,7 @@
   .welcomeText h2{
     font-size: 20px;
     width: 300px;
+    text-align: center;
   }
   .welcomeText {
     margin: 0 auto;
@@ -218,6 +277,7 @@
   }
   .functionsScheme{
     width: 300px;
+    padding-bottom: 10vh;
   }
   .functionsText{
     margin: 0;
@@ -237,6 +297,24 @@
   }
   #carouselExampleIndicators{
     transform: scale(0.9);
+  }
+
+
+  .results h2{
+    padding-top: 20vh;
+    font-size: 36px;
+  }
+  .results{
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .end h2{
+    font-size: 36px;
+  }
+  .end{
+    font-size: 12px;
+    text-align: center;
   }
 }
 
@@ -266,6 +344,35 @@
   #carouselExampleIndicators{
     transform: scale(0.7);
   }
+
+  .material{
+    align-items: center;
+    justify-content: center;
+  }
+
+  .material table{
+    font-size: 10px;
+  }
+
+  .results h2{
+    padding-top: 10vh;
+    font-size: 36px;
+  }
+  .results{
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .end h2{
+    font-size: 36px;
+  }
+  .end{
+    padding-top: 10vh;
+    padding-bottom: 0;
+    font-size: 8px;
+    text-align: center;
+  }
+
   footer .footerPolygon{
     height: 200px;
     width: 300px;

@@ -341,21 +341,27 @@
     font-size: 1.8em;
     margin: 20px 0;
   }
+  .functionsScheme{
+    padding-bottom: 0;
+  }
+
   #carouselExampleIndicators{
-    transform: scale(0.7);
+    transform: scale(0.9);
   }
 
   .material{
     align-items: center;
     justify-content: center;
   }
-
+  .materialText{
+    margin: 0 0 10vh 0;
+  }
   .material table{
-    font-size: 10px;
+    font-size: 8px;
   }
 
   .results h2{
-    padding-top: 10vh;
+    padding-top: 0;
     font-size: 36px;
   }
   .results{

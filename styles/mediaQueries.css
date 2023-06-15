@@ -339,6 +339,18 @@
     height: 400px;
   }
 
+  .material{
+    align-items: center;
+    justify-content: center;
+  }
+  .materialText{
+    margin: 0 0 10vh 0;
+  }
+  .material table{
+    font-size: 10px;
+    transform: scale(0.9);
+  }
+
 
   footer .footerPolygon{
     height: 200px;
@@ -371,7 +383,7 @@
   }
   .material table{
     font-size: 10px;
-    transform: scale(0.9);
+    transform: scale(0.8);
   }
 
   .results h2{

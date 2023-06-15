@@ -299,6 +299,17 @@
     transform: scale(0.9);
   }
 
+  .material{
+    align-items: center;
+    justify-content: center;
+  }
+  .materialText{
+    margin: 0 0 10vh 0;
+  }
+  .material table{
+    font-size: 10px;
+    transform: scale(0.9);
+  }
 
   .results h2{
     padding-top: 20vh;
